@@ -84,6 +84,7 @@ span{
 
 .container{
     width: 100%;
+    display: flex;
     justify-content:space-between;
     padding: 0 3rem;
     align-content: space-between;
@@ -107,12 +108,13 @@ span{
 
 
 .navbar{
+    width: 100%;
     position: relative;
     /*right: 0;*/
     display: flex;
     justify-content: space-between;
     /*background-color: green;*/
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 .navbar h2{
     font-size: 6rem;
@@ -165,7 +167,8 @@ span{
         border: 1px solid #212529;
     }
      .container{
-        position: relative;
+        overflow: visible;
+        position: fixed;
     }
     .container h2{
         display: none;
@@ -184,7 +187,7 @@ span{
         transform: translateX(100%);
         transition: all 0.5s linear;
         opacity: 0;
-        visibility: hidden;
+        visibility: visible;
         pointer-events: none;
     }
      
