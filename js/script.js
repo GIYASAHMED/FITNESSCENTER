@@ -115,6 +115,7 @@ mobile_nav.addEventListener("click", () => toggleNavbar());
     //threshold: 0,   
 //});
 //observer.observe(section_hero);
+//............ after adding this got some problem----------
 
 
 
