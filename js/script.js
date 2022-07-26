@@ -87,10 +87,20 @@ const mobile_nav = document.querySelector(".mobile-navbar-btn");
 //console.log(mobile_nav);
 const nav_header = document.querySelector(".container");
 
+const nav_list = document.querySelector(".navbar-list");
+
 const toggleNavbar = () =>{
     nav_header.classList.toggle("active");
 };
 mobile_nav.addEventListener("click", () => toggleNavbar());
+
+const hide = () =>{
+    nav_header.classList.toggle("active");
+};
+nav_list.addEventListener("click", () => hide());
+
+
+
 
 
 
