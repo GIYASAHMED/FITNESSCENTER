@@ -100,21 +100,21 @@ mobile_nav.addEventListener("click", () => toggleNavbar());
 
 // ===========Intersection Observer =======================
 
-const section_hero = document.querySelector(".hero");
+//const section_hero = document.querySelector(".hero");
 
-const observer = new IntersectionObserver(
-    (entries) => {
-    const ent = entries[0];
-    ent.isIntersecting == false
-    ?document.body.classList.add("sticky")
-    :document.body.classList.remove("sticky");
-},
-{
-    root: null,
-    rootMargin: "-80px",
-    threshold: 0,   
-});
-observer.observe(section_hero);
+//const observer = new IntersectionObserver(
+    //(entries) => {
+    //const ent = entries[0];
+    //ent.isIntersecting == false
+    //?document.body.classList.add("sticky")
+    //:document.body.classList.remove("sticky");
+//},
+//{
+    //root: null,
+    //rootMargin: "-80px",
+    //threshold: 0,   
+//});
+//observer.observe(section_hero);
 
 
 
