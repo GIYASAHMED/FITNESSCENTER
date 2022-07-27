@@ -60,6 +60,7 @@ const classes_section = document.querySelector(".classes-section");
 const schedules_section = document.querySelector(".schedule-section");
 const trainer_section = document.querySelector(".trainer-section");
 const contact_section = document.querySelector(".contact-section");
+//const btn_1 = document.querySelector(".btn-link");
 
 document.querySelector(".home-link").addEventListener("click", () =>{
     hero_section.scrollIntoView({behavior: "smooth"});
@@ -79,6 +80,12 @@ document.querySelector(".trainer-link").addEventListener("click", () =>{
 document.querySelector(".contact-link").addEventListener("click", () =>{
     contact_section.scrollIntoView ({behavior:"smooth"});
 });
+document.querySelector(".btn-link").addEventListener("click", () => {
+    contact_section.scrollIntoView ({behavior:"auto"});
+})
+document.querySelector(".btn-link2").addEventListener("click", () =>{
+    contact_section.scrollIntoView ({behavior: "auto"});
+})
 
 
 // ====================== Open close navbar btn ===================
